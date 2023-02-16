@@ -1,5 +1,5 @@
 {
-    "name": "hungthai1401/laravel-hmvc",
+    "name": "faizmsyam/laravel-hmvc",
     "description": "HMVC structure for Laravel",
     "type": "library",
     "keywords": [
@@ -10,8 +10,8 @@
     ],
     "authors": [
         {
-            "name": "Nguyen Hung Thai",
-            "email": "hungthai1401.it@gmail.com"
+            "name": "Faiz Muhammad Syam",
+            "email": "faizmsyam@gmail.com"
         }
     ],
     "require": {
@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "HT\\Modules\\": "src"
+            "FZ\\Modules\\": "src"
         },
         "files": [
             "src/helpers.php"
@@ -32,7 +32,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "HT\\Modules\\Providers\\ModuleServiceProvider"
+                "FZ\\Modules\\Providers\\ModuleServiceProvider"
             ]
         }
     },
