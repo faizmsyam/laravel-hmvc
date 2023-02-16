@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "FZ\\Modules\\": "src"
+            "HT\\Modules\\": "src"
         },
         "files": [
             "src/helpers.php"
@@ -32,7 +32,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "FZ\\Modules\\Providers\\ModuleServiceProvider"
+                "HT\\Modules\\Providers\\ModuleServiceProvider"
             ]
         }
     },
